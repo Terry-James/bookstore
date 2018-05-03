@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Manager Login Page</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="cssFiles/mainCSS.css" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+</head>
+
+<body>
+
+<div class="jumbotron text-center" id="top" style="background-image: url(images/books.png)">
+ 
+</div>
+</br></br>  
+<div class="container">
+  <div class="row">
+    
+	<div class="col-sm-4">
+      
+    </div>
+    
+	<div class="col-sm-4" style = "background-color: LightBlue;">
+	</br></br> 
+	  <h1 style="font-weight: bold; color: white; text-shadow:2px;"> Manager Login </h1>
+      </br></br></br></br>	  
+	  
+	  <class="text-center">
+		<form action="managerValidate.php" class="form-signin" method="post">
+		  <h1 class="h3 mb-3 font-weight-normal">Please sign in</h1>
+		  
+		  <label name="EmailLabel" class="sr-only">User name</label>
+		  <input type="text" name="inputManagerUserName" class="form-control" placeholder="Email" required="" autofocus="">
+		  
+		  <label name="PasswordLabel" class="sr-only">Password</label>
+		  <input type="password" name="inputPassword" class="form-control" placeholder="Password" required="">
+		  
+		  <div class="checkbox mb-3">
+		  <label>
+		  <input type="checkbox" value="remember-me"> Remember me
+		  </label>
+		  </div>
+		  
+		  <button class="btn btn-lg btn-block" type="submit">Sign in</button>
+		  <p class="mt-5 mb-3 text-muted">© 2017-2018</p>
+		</form>
+		<a href = "index.php"><button class="btn btn-lg btn-block">Main page</button></a><br>
+		
+	</div>
+    
+	<div class="col-sm-4">
+      
+    </div>
+  </div>
+</div>
+<br>
+</body>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+</html>
